@@ -30,9 +30,13 @@ A 10 x 10 x 10 brick centered on (0, 0, 10) and a cylinder of radius 5 height 10
 ## overlap-edge.h5m
 A simple edge overlap case consisting of two identical pyramids which have a volume overlap along a triangle edge (no overlapping vertices).
 
-![Overlap Edge](images/overlap-edge.png)
+<div align="center">
+  <img src="images/overlap-edge.png" alt="Overlap Edge" width="600">
+</div>
 
 ## beam-overlaps.h5m
 A second edge overlap case consisting of two identical beams (cuboids) which have a larger volume overlap (no vertices) along multiple edges.
 
-![Beam Overlaps](images/beam-overlap.png)
+<div align="center">
+  <img src="images/beam-overlap.png" alt="Beam Overlaps" width="600">
+</div>
