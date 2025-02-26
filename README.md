@@ -40,3 +40,18 @@ A second edge overlap case consisting of two identical beams (cuboids) which hav
 <div align="center">
   <img src="images/beam-overlap.png" alt="Beam Overlaps" width="600">
 </div>
+
+# pincell.h5m and pincell-implicit.exo
+
+These two files contain identical meshing in MOAB (`.h5m`) and libMesh (`.exo`)
+formats. Metadata is applied in the Cubit model (found in `pincell-both.cub5`)
+for both formats as well.
+
+<div align="center">
+  <img src="images/pincell-geom.png" alt="Pincell problem geometry" width="600">
+  <img src="images/pincell-mesh.png" alt="Pincell problem mesh" width="600">
+</div>
+
+In the case of the libMesh model, boundary conditions are only applied to the
+outer volume. The interior interfaces of the model are discovered automatically
+as implicit boundaries based on the transition between mesh blocks.
