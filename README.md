@@ -134,6 +134,10 @@ as implicit boundaries based on the transition between mesh blocks.
 
 A simple rectangular beam segmented into 20 seperate volumes along the x-axis. 
 
+| Element Type      | Count |
+|-------------------|-------|
+| Surface Triangles | 1106  |
+
 <div align="center">
   <img src="images/single-segmented-beam.png" alt="Segmented Beam" width="600">
 </div>
