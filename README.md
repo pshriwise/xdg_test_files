@@ -7,7 +7,7 @@ A simple sphere geometry matching the size of the Jezebel bare sphere core (more
 | Element Type      | Count |
 |-------------------|-------|
 | Surface Triangles | 1276  |
-| Tetrahedrons      | 0     |
+| Tetrahedrons      | 10333 |
 
 ## jezebel.exo
 
@@ -130,9 +130,9 @@ In the case of the libMesh model, boundary conditions are only applied to the
 outer volume. The interior interfaces of the model are discovered automatically
 as implicit boundaries based on the transition between mesh blocks.
 
-# segmented-beam.h5m 
+# segmented-beam.h5m
 
-A simple rectangular beam segmented into 20 seperate volumes along the x-axis. 
+A simple rectangular beam segmented into 20 seperate volumes along the x-axis.
 
 | Element Type      | Count |
 |-------------------|-------|
